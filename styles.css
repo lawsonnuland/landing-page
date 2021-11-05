@@ -20,6 +20,17 @@ ul {
     list-style: none;
 }
 
+img {
+    max-width: 300px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #3882f6;
+    padding: 5px 10px;
+    color: #f9faf8;
+}
+
 #header {
     display: flex;
     justify-content: space-between;
@@ -64,12 +75,18 @@ ul {
 
 #info-items {
     display: flex;
-    gap: 8px;
+    gap: 20px;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .item {
     width: 200px;
+    text-align: center;
+}
+
+.small-image {
+    width: 150px;
 }
 
 #quote {
@@ -95,10 +112,16 @@ ul {
     background: #3882f6;
     padding: 10px 20px;
     margin: 30px 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    color: #f9faf8;
 }
 
 #call-to-action button {
     text-align: right;
+    border-color: #f9faf8;
 }
 
 #footer {
